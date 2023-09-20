@@ -1,0 +1,9 @@
+
+/*Обнулення стилів */
+
+@import url("reset.css");
+
+img {
+    height:500px;
+    width:700px;
+}
