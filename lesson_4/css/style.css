@@ -1,0 +1,60 @@
+@import url("reset.css");
+
+img {
+    height: 600px;
+    width: 800px;
+}
+
+#coloring {
+    color: blueviolet;
+}
+
+.cons-list .cons-point {
+    color: yellowgreen;
+}
+
+h1,
+h3 {
+    color: hotpink;
+}
+
+.footer-address * {
+    color: saddlebrown;
+}
+
+.header-item a {
+    color: darkgreen;
+}
+
+#care span, ol {
+    color: orangered;
+}
+
+.tryming > p {
+    color: blue;
+}
+
+.cons-list + p {
+    color: red;
+}
+
+h4 ~ p {
+    color: lightseagreen;
+}
+
+h2 + p, span, mark {
+    color: darkorange;
+}
+
+.about > ul + p {
+    color: deepskyblue;
+}
+
+#grooming p {
+    color: blueviolet;
+}
+
+[class*="-item"], [id*="cats"] {
+    color: blue;
+}
+
