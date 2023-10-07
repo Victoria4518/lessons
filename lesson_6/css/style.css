@@ -17,6 +17,7 @@ body {
 .first-task {
     padding: 140px 217px;
     margin-bottom: 120px;
+    font-size: 0;
 }
 
 .jewels-content {
