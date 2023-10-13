@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+@font-face {
+    font-family: 'Core Sans C 65', sans-serif;
+    src: url("../fonts/CoreSansC-65Bold.woff2") format('woff2');
+url("../fonts/CoreSansC-65Bold.woff") format('woff');
+    font-display: swap;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Causten', sans-serif;
+    src: url("../fonts/Causten-400.woff2") format('woff2');
+url("../fonts/Causten-400.woff") format('woff');
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Causten', sans-serif;
+    src: url("../fonts/Causten-700.woff2") format('woff2');
+url("../fonts/Causten-700.woff") format('woff');
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*  Макет Consalting */
+
+header,
+footer {
+    color: transparent;
+    margin-bottom: 18px;
+}
+
+.consalting-task {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.project {
+    max-width: 830px;
+    margin: 50px auto 150px auto;
+    color: #7D7D7D;
+}
+
+.paragraph-first {
+    margin-bottom: 35px;
+}
+
+.project-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.project-text {
+    line-height: 1.4;
+    margin-bottom: 35px;
+}
+
+.project-list-first,
+.project-list-second {
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    padding-left: 51px;
+
+}
+
+.unnumbered-item {
+    list-style-type: disc;
+    margin-bottom: 35px;
+}
+
+.numbered-item {
+    list-style-type: decimal-leading-zero;
+    margin-bottom: 35px;
+
+}
+
+.project-list-first {
+    color: #37393F;
+}
+
+.project-bottomtext {
+    color: #AFB4B3;
+}
+
+.project-title,
+.licensing-title,
+.licensing-subtitle,
+.licensing-theme {
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+}
+
+.licensing {
+    max-width: 1218px;
+    margin: 0 auto 150px auto;
+    color: #7D7D7D;
+    padding-top: 150px;
+}
+
+.licensing-cube {
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    display: inline-block;
+
+}
+
+.template {
+    text-align: center;
+}
+
+.temple-info {
+    display: inline-block;
+    color: #37393F;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.licensing-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.licensing-subtitle {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.graphics,
+.photography {
+    margin-bottom: 100px;
+}
+
+.licensing-theme {
+    font-size: 30px;
+}
+
+.licensing-theme,
+.licensing-subtitle {
+    line-height: 1.5;
+    margin-bottom: 11px;
+}
+
+.license {
+    font-family: 'Poppins', sans-serif;
+    color: #40DDB6;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: left;
+
+}
+
+.licensing-info {
+    font-weight: 500;
+
+}
+
+.icons-paragraph {
+    margin-bottom: 32px;
+}
+
+.photography-paragraph,
+.license-paragraph {
+    margin-bottom: 24px;
+}
+
+.info-fonts,
+.license-paragraph {
+    color: #40DDB6;
+}
+
+/*  Макет Euphoria */
+
+.clothing-task {
+    max-width: 1240px;
+    margin: 0 auto 155px auto;
+    padding-top: 55px;
+}
+
+.clothing-deko {
+    width: 6px;
+    height: 28px;
+    background-color: #8A33FD;
+    border-radius: 10%;
+    display: inline-block;
+    margin-left: -30px;
+
+}
+
+.clothing-title {
+    color: #3C4242;
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.clothing-subtitle {
+    margin-bottom: 25px;
+}
+
+.clothing-subtitle,
+.clothing-uppertext,
+.clothing-bottomtext,
+.see-button {
+    font-size: 20px;
+    color: #807D7E;
+    line-height: 1.6;
+}
+
+.clothing-title,
+.clothing-subtitle,
+.see-button {
+    font-family: 'Core Sans C 65', sans-serif;
+    font-weight: 600;
+}
+
+.clothing-uppertext {
+    font-family: 'Causten', sans-serif;;
+    margin-bottom: 20px;
+}
+
+.clothing-bottomtext {
+    font-family: 'Causten', sans-serif;;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.clothing-span {
+    font-weight: 700;
+}
+
+/*  Макет Jewellery */
+
+.jewellery-task {
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+    margin: 175px auto;
+    max-width: 1600px;
+    padding: 0 262px 0 246px;
+}
+
+.jewellery-content {
+    max-width: 500px;
+    display: inline-block;
+    margin-right: 75px;
+    vertical-align: middle;
+}
+
+.jewellery-title {
+    color: #D58417;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 20px;
+    margin-bottom: 27px;
+}
+
+.jewellery-subtitle {
+    font-size: 64px;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.jewellery-text {
+    line-height: 1.4;
+    color: #606060;
+    font-size: 30px;
+}
+
+.jewellery-image {
+    display: inline-block;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+.jewellery-first {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 235px;
+    color: #502203;
+    width: 177px;
+    height: 336px;
+    margin-right: 25px;
+
+}
+
+.jewellery-second {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid;
+    border-radius: 235px;
+    color: #502203;
+    width: 307px;
+    height: 519px;
+}
+
+.model-first {
+    padding: 14px 0;
+    margin: 0 0 0 -10px;
+
+}
+
+.model-second {
+    padding: 19px 0 0 0;
+    margin: 0 0 0 -11px;
+
+}
+
+/* Практика */
+.practice-blocks {
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.block-one {
+    background-color: lightsteelblue;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+    border: 6px solid #8A33FD;
+    border-radius: 20px;
+    box-shadow: 20px -10px teal;
+}
+
+.block-two {
+    background-color: lightpink;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+    border: 6px dotted #D58417;
+    border-bottom: none;
+}
+
+.block-third {
+    background-color: darkseagreen;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+    border: 6px dashed #000000;
+    border-radius: 40px;
+    opacity: 0.5;
+}
+
+.block-four {
+    background-color: lightpink;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+    border-top: 6px solid #3C4242;
+    border-right: 6px dotted #40DDB6;
+    border-bottom: 6px double green;
+    border-left: 6px dashed yellow;
+    box-shadow: 3px 3px red, -1em 0 .4em darksalmon;
+}
+
+.block-five {
+    background-color: lightsteelblue;
+    display: inline-block;
+    max-width: 75%;
+    padding: 10px;
+    margin: 2px 10px;
+    outline: 6px solid #8A33FD;
+    box-shadow:
+}
+
+.block-six {
+    background-color: lightpink;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+    box-shadow: 4.5px 4.5px 3.6px rgba(0, 0, 0, 0.038),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.054),
+    30.1px 30.1px 24.1px rgba(0, 0, 0, 0.062),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.block-seven {
+    visibility: hidden;
+    background-color: lightpink;
+    max-width: 75%;
+    padding: 10px;
+    margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
