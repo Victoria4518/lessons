@@ -1,0 +1,634 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+
+header,
+footer {
+    font-size: 0;
+}
+
+/*   Практика   */
+
+.practice {
+    max-width: 500px;
+    margin: 10px auto 150px;
+    font-family: 'Inter', sans-serif;
+}
+
+.lines .line:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.lines-right .line:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 200px;
+    min-height: 50px;
+    background-color: #D58AC4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.lines {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.lines-right {
+    display: inline-block;
+}
+
+.line-title,
+.line-link {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.line-link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.fifth-line {
+    margin-bottom: 10px;
+    width: 200px;
+    min-height: 40px;
+    background-color: #D58AC4;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.line-link:visited {
+    color: darkred;
+}
+
+.lines .line:first-child {
+    background-color: #8A93E7;
+    border-radius: 10px;
+
+}
+
+.lines:hover .line:nth-child(even) {
+    background-color: #ABB16B;
+    transition: 0.7s;
+}
+
+.lines:hover .line:nth-child(odd) {
+    box-shadow: rgb(85, 91, 255) 0 0 0 3px, rgb(31, 193, 27) 0 0 0 6px, rgb(255, 217, 19) 0 0 0 9px, rgb(255, 156, 85) 0 0 0 12px, rgb(255, 85, 85) 0 0 0 15px;
+    transition: 0.7s;
+}
+
+.lines-right .line:last-child {
+    background-color: #E7B78A;
+    border-radius: 20px;
+}
+
+.lines .line:nth-child(6):active {
+    background-color: #BA1A0F;
+    box-shadow: 10px 5px 5px #2A8AB4;
+    transition: 0.4s;
+}
+
+.lines-right:hover .line:first-of-type {
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 0.7s;
+}
+
+.lines-right:hover .line:nth-child(3) {
+    background-color: #2A8AB4FF;
+    transition: 0.7s;
+}
+
+.lines-right:hover .line:nth-child(4) {
+    background-color: #1FC11BFF;
+    transition: 0.7s;
+}
+
+.lines-right .line:focus {
+    background-color: #8B3478;
+    transition: 0.7s;
+}
+
+
+.target2-img {
+    width: 80px;
+    min-height: 60px;
+    visibility: hidden;
+}
+
+.target2-img:target {
+    visibility: visible;
+}
+
+/*   Гра   */
+.game {
+    max-width: 600px;
+    margin: 100px auto 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0;
+}
+
+.game-logo {
+    width: 200px;
+    min-height: 150px;
+}
+
+.game-info {
+    text-align: right;;
+}
+
+.game-img {
+    margin-bottom: 10px;
+}
+
+.circle-block {
+    display: inline-block;
+}
+
+.game-block {
+    background: linear-gradient(0deg, rgba(188, 195, 34, 1) 0%, rgba(45, 48, 253, 0.9915615904564951) 100%);
+    margin-bottom: 10px;
+}
+
+.game-title {
+    color: darkblue;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.winner-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.game-text {
+    color: #a09d2a;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: linear-gradient(0deg, rgba(188, 195, 34, 1) 0%, rgba(45, 48, 253, 0.9915615904564951) 100%);
+    opacity: 0;
+}
+
+.circle:hover {
+    background: url("../img/practice/winner.webp");
+    opacity: 1;
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(1) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+
+}
+
+.circle-block:hover .circle:nth-child(12) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(15) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(24) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(29) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(36) {
+    background: url("../img/practice/zrada.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(9) {
+    background: url("../img/practice/peremoha.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(14) {
+    background: url("../img/practice/peremoha.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(20) {
+    background: url("../img/practice/peremoha.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(27) {
+    background: url("../img/practice/peremoha.png");
+    transition: 0.8s;
+}
+
+.circle-block:hover .circle:nth-child(31) {
+    background: url("../img/practice/peremoha.png");
+    transition: 0.8s;
+}
+
+/*  Макет Consulting  */
+.consulting-task {
+    max-width: 1920px;
+}
+
+.consulting-container {
+    width: 742px;
+    margin: 0 auto 150px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+.consulting-deko {
+    margin-bottom: 16px;
+}
+
+.deko-title {
+    font-weight: 500;
+}
+
+.deko-title,
+.downer-title {
+    color: #37393F;
+    line-height: 1.2;
+}
+
+.deko-title::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    display: inline-block;
+    background-color: #40DDB6;
+}
+
+.consulting-title {
+    margin-bottom: 10px;
+}
+
+.downer-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    white-space: pre-line;
+}
+
+.consulting-text {
+    line-height: 1.4;
+    color: #7D7D7D;
+}
+
+.consulting-text p:first-child {
+    margin-bottom: 18px;
+}
+
+.consulting-text p:last-child {
+    margin-bottom: 48px;
+}
+
+.card:first-child {
+    margin-bottom: 31px;
+}
+
+.consulting-cards {
+    margin-bottom: 72px;
+}
+
+.card {
+    width: 675px;
+    min-height: 150px;
+    border: #E3E3E3 1px solid;
+    padding: 28px 41px 38px;
+    font-size: 0;
+}
+
+.card-title {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #37393F;
+    margin-bottom: 12px;
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.card::before {
+    content: "";
+    background: url("../img/consulting/point.png");
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    margin-bottom: 15px;
+
+}
+
+.card-text {
+    color: #7D7D7D;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+
+.about-button {
+    width: 200px;
+    height: 65px;
+    padding: 21px 35px;
+    background-color: #6B77E5;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.work {
+    max-width: 1920px;
+}
+
+.work-container {
+    width: 1220px;
+    margin: 150px auto 138px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.work-title {
+    margin-bottom: 77px;
+}
+
+.work-deko {
+    margin-bottom: 16px;
+}
+
+.card-title {
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.item-text {
+    color: #7D7D7D;
+    line-height: 1.4;
+    margin-bottom: 37px;
+    font-size: 18px;
+}
+
+.work-cards {
+    font-size: 0;
+}
+
+.work-item {
+    width: 386px;
+    min-height: 301px;
+    padding: 58px 43px;
+    background-color: #F4F4F4;
+    display: inline-block;
+    transition: 0.6s;
+
+}
+
+.work-item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.work-item:hover {
+    background-color: #DCDADA;
+}
+
+.appoint-icon::before {
+    content: "";
+    background: url("../img/consulting/appoint.png") center/cover no-repeat;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    vertical-align: middle;
+    margin-top: -114px;
+}
+
+.consult-icon::before {
+    content: "";
+    background: url("../img/consulting/consult.png") center/cover no-repeat;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    vertical-align: middle;
+    margin-top: -114px;
+}
+
+.service-icon::before {
+    content: "";
+    background: url("../img/consulting/service.png") center/cover no-repeat;
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    vertical-align: middle;
+    margin-top: -114px;
+}
+
+.work-link {
+    font-weight: 600;
+    color: #6B77E5;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.project {
+    max-width: 720px;
+    margin: 0 auto 45px auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.project-title {
+    color: #37393F;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.project-text h3 {
+    color: #6B77E5;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.project-text {
+    color: #7D7D7D;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.project-text p:first-child {
+    margin-bottom: 42px;
+}
+
+.benefits {
+    margin-bottom: 48px;
+}
+
+.benefits-img {
+    max-width: 331px;
+    display: inline-block;
+    margin-right: 29px;
+    font-size: 0;
+}
+
+.benefits-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.benefits-info {
+    display: inline-block;
+    width: 332px;
+    vertical-align: top;
+}
+
+.benefits-title {
+    color: #37393F;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.benefits-subtitle {
+    color: #40DDB6;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 23px;
+}
+
+.benefits-list {
+    color: #7D7D7D;
+    display: inline-block;
+}
+
+.benefits-list .benefits-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.benefits-item::before {
+    content: "";
+    background: url("../img/consulting/benefits-point.png") no-repeat;
+    width: 27px;
+    height: 27px;
+    padding-left: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*   Макет Jewellery  */
+
+.jewels {
+    max-width: 1600px;
+}
+
+.jewels-container {
+    width: 1250px;
+    min-height: 674px;
+    margin: 160px auto 162px;
+    font-family: 'Cormorant Infant', sans-serif;
+    font-weight: 700;
+}
+
+.jewels-title {
+    width: 488px;
+    display: inline-block;
+    font-size: 60px;
+    line-height: 1;
+}
+
+.jewels-title::after {
+    display: block;
+    content: "";
+    width: 304px;
+    height: 3px;
+    background-color: #78473B;
+    margin-top: 13px;
+}
+
+.collection-number {
+    font-size: 46px;
+    line-height: 1;
+    margin-bottom: 31px;
+}
+
+.card-content {
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.jewels-pic {
+    width: 100%;
+    margin: 9px 0 -10px 9px;
+
+}
+
+.jewels-img {
+    border: 1px black solid;
+    margin-bottom: 34px;
+}
+
+.jewels-cards {
+    display: inline-block;
+}
+
+.first-card {
+    display: inline-block;
+    width: 334px;
+    margin-right: 55px;
+    vertical-align: middle;
+}
+
+.second-card {
+    display: inline-block;
+    width: 334px;
+    vertical-align: bottom;
+    margin-bottom: -146px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
