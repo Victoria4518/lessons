@@ -1,0 +1,39 @@
+.homework {
+    max-width: 1920px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.homework-container {
+    width: 800px;
+    margin: 0 auto 150px;
+    padding: 20px;
+}
+header,
+footer {
+    visibility: hidden;
+}
+.icons {
+    background-color: grey;
+    padding: 30px;
+}
+
+.elements {
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+.content {
+    background-color: #F8F7F7;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.content img {
+    max-width: 800px;
+}
