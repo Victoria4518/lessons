@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+/* Навігаційне меню */
+
+.wrapper {
+    max-width: 1060px;
+    margin: 0 auto;
+    overflow: clip;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 30;
+}
+
+.header__wrapper {
+    padding-top: 56px;
+    padding-left: 50px;
+}
+
+.menu li {
+    list-style-type: none;
+    position: relative;
+}
+
+.header__menu {
+    position: absolute;
+    background-color: rgba(46, 47, 52, 0.61);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.header__item {
+    margin-right: 82px;;
+    display: inline-block;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+    opacity: .85;
+    color: #00c7c0;
+}
+
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__link {
+    font-size: 25px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.sub-menu__item:hover, .sub-menu__link:hover {
+    background-color: #686B6B;
+}
+
+.sub-menu {
+    text-align: center;
+    top: 100%;
+    left: 0;
+    padding-top: 15px;
+    color: #00c7c0;
+    width: 250px;
+    position: absolute;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.header__menu .header__item:hover .sub-menu {
+    /*visibility: visible;*/
+    display: block;
+}
+
+.sub-menu__item:hover .plus-menu {
+    display: block;
+    /*visibility: visible;*/
+}
+
+.sub-menu__link,
+.plus-menu__link {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: #37393F;
+    border-bottom: #43C3C3 1px solid;
+    display: block;
+}
+
+.plus-menu {
+    text-align: center;
+    top: 0;
+    right: -250px;
+    padding-top: 0;
+    color: #00c7c0;
+    width: 250px;
+    position: absolute;
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.plus-menu__item:hover, .plus-menu__link:hover {
+    background-color: #686B6B;
+}
+
+.intro {
+    min-height: 1200px;
+    background: url("../img/intro.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 420px;
+    font-family: 'Lato', sans-serif;
+}
+
+.intro__title {
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #00c7c0;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle {
+
+    font-size: 18px;
+    line-height: 1.3;
+    color: white;
+    max-width: 540px;
+    margin-bottom: 59px;
+}
+
+.connect {
+    background: #83F4F4;
+    border-radius: 50%;
+    box-shadow: 0 8px 10px rgba(27, 243, 210, 0.72);
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    position: fixed;
+    top: 790px;
+    left: 10px;
+
+
+}
+
+.intro__button {
+    width: 40px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+/* Блок з макету*/
+.experts {
+    width: 1920px;
+}
+
+.experts__container {
+    max-width: 1220px;
+    margin: 150px auto;
+}
+
+.cards {
+    display: inline-block;
+    font-size: 0;
+}
+
+.cards__item {
+    display: inline-block;
+}
+
+.card__text {
+    width: 341px;
+    min-height: 114px;
+    background-color: #FFFF;
+    text-align: center;
+    padding-top: 24px;
+    position: relative;
+    top: -136px;
+    left: 22px;
+}
+
+.card__img {
+    position: relative;
+    width: 386px;
+    height: 532px;
+}
+
+.card__img:hover::after {
+    content: "";
+    background-color: #6B77E5;
+    opacity: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card__icons {
+    visibility: hidden;
+    display: inline-block;
+    position: absolute;
+    top: 251px;
+    left: 107px;
+    z-index: 1;
+}
+
+.card__img:hover .card__icons {
+    visibility: visible;
+}
+
+.card__icons .card__icon:not(:last-child) {
+    margin-right: 13px;
+}
+
+.card__name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #37393F;
+    margin-bottom: 4px;
+
+}
+
+.card__specialty {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #7D7D7D;
+}
+
+.cards__item:not(:last-child) {
+    margin-right: 31px;
+}
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+}
+
+/*  Практика  */
+.practice {
+    max-width: 1920px;
+}
+
+.practice-container {
+    width: 1200px;
+    margin: 0 auto 150px;
+    padding: 30px;
+}
+
+.positions {
+    display: inline-block;
+    font-size: 0;
+}
+
+.positions p {
+    margin-bottom: 10px;
+}
+
+.positions div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.block-title {
+    text-align: center;
+    font-size: 18px;
+    color: honeydew;
+    font-weight: 700;
+    padding: 30px 30px;
+}
+
+.first-block {
+    width: 1200px;
+    height: 70px;
+    background: rgba(8, 204, 204, 0.38);
+    display: block;
+    position: sticky;
+    top: 250px;
+    left: 20px;
+    z-index: 30;
+    margin-bottom: 20px;
+
+}
+
+.second-block {
+    width: 1200px;
+    height: 150px;
+    background-color: #00c7c0;;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.second-block__item {
+    width: 60px;
+    height: 60px;
+    background-color: #37393F;
+    border-radius: 100%;
+    position: absolute;
+    top: 75px;
+    left: 40px;
+}
+
+.third-block {
+    width: 1200px;
+    height: 150px;
+    background-color: #00c7c0;;
+    display: block;
+    position: static;
+}
+
+.positions-block__text {
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    margin: 20px 0 20px;
+    color: #279B9AFF;
+}
