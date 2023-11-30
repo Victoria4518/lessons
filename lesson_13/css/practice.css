@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+
+/*  Практика  */
+.practice {
+    max-width: 1220px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    text-align: center;
+    margin: 0 auto 150px auto;
+}
+
+.practice-container {
+    width: 900px;
+}
+
+.practice__text {
+    color: #6A5953;
+    font-size: 20px;
+    line-height: 1.2;
+    padding: 20px;
+}
+
+.blocks {
+    display: inline-block;
+    font-size: 0;
+}
+
+.block {
+    margin: 100px 60px 40px 0;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    line-height: 100px;
+}
+
+div {
+    transition: all 0.5s ease-in-out;
+
+}
+
+.first,
+.fourth,
+.seventh {
+    background: rgba(97, 135, 86, 0.4);
+}
+
+.second,
+.fifth,
+.eighth {
+    background: rgba(0, 152, 246, 0.4);
+}
+
+.third,
+.sixth {
+    background: rgba(255, 0, 242, 0.4);
+}
+
+.first:hover {
+    transform: translateY(-15px);
+}
+
+.second:hover {
+    transform: translateX(15px);
+}
+
+.third:hover {
+    transform: scaleY(1.2);
+}
+
+.fourth:hover {
+    transform: scaleX(-2);
+}
+
+.fifth:hover {
+    transform: rotate(360deg);
+}
+
+.sixth:hover {
+    transform: skewY(-15deg);
+}
+
+.seventh:hover {
+    transform: skewX(15deg);
+}
+
+.eighth:hover {
+    transform: matrix(1.4, 0, 0.5, 1.4, 30, 0);
+}
