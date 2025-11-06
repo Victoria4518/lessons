@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 109px;
+    background-color: #F5F5F5;
+    opacity: 80%;
+
+}
+
+.wrapper {
+
+}
+
+.header__wrapper {
+
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.header__item {
+    margin: 36px 86px 36px 0;
+
+}
+
+.header__item:last-child {
+    margin-right: 20px;
+}
+
+.header__link {
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 22px;
+    color: #363636;
+    text-transform: uppercase;
+    line-height: 29px;
+    text-decoration: none;
+
+}
+
+.header__link:hover, .header__link:focus, .header__link:active {
+
+}
+
+.header-logo {
+    margin: 15px 103px 0 0;
+
+}
+
+.intro__wrapper {
+    width: 966px;
+    margin: 0 auto;
+    padding-top: 420px;
+}
+
+.intro {
+    min-height: 100vh;
+    background: url("../img/wedding_ground.png") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.intro__title {
+    color: #BBA085;
+    font-family: 'Ephesis', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+
+}
+
+.intro__subtitle {
+    color: white;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.award {
+    background-color: #F4F4F4;
+    min-height: 553px;
+}
+
+.award__wrapper {
+    margin: 0 auto;
+    width: 1066px;
+    padding-top: 86px;
+    text-align: center;
+}
+
+.award__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #BBA085;
+    letter-spacing: 0.2em;
+}
+
+.award__text {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color: #4F4F4F;
+    margin-top: 53px;
+
+}
+
+.award__img {
+    transform: rotate(-+49.22deg);
+    margin-bottom: 32px;
+
+}
+
+.hello {
+
+}
+
+.hello__wrapper {
+
+}
+
+.hello {
+    width: 100%;
+    background: #fff;
+}
+
+.hello__wrapper {
+    width:100% ;
+    margin: 0 auto;
+
+}
+
+.hello__row {
+    display: flex;
+}
+
+.hello__img,
+.hello__bio {
+    flex: 0 0 50%;
+}
+
+.hello__img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hello__bio {
+    padding: 70px 80px 0 80px;
+    text-align: center;
+}
+
+.hello__bio-img {
+
+}
+.hello__title {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #4A4A4A;
+    margin-top: 70px;
+}
+
+.hello__text {
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #2D2D2D;
+    margin-top: 40px;
+    line-height: 42px;
+}
+.hello__text p + p {
+    margin-top: 50px;
+}
+.hello__bio-decor {
+    margin-top: 50px;
+}
+.hello__name {
+    margin-top: 70px;
+}
+.hello__bio-more {
+    margin-top: 30px;
+}
+.hello__name {
+    font-family: 'Ephesis', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #545454;
+}
+
+.hello__bio-button {
+    width: 209px;
+    height: 66px;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    background-color: #E9E1D9;
+    padding: 16px 40px;
+    color: #484848;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    /* Якщо хочеш, щоб НЕ було перенесення:
+       flex-wrap: nowrap; */
+}
+
+.col {
+    /* варіант A — рівні частини: */
+    flex: 1 1 0; /* ростуть однаково, базова ширина 0 */
+    /* альтернативний варіант B (фіксовано 50%): */
+    /* flex: 0 0 50%; */
+    padding: 16px;
+    border: 1px solid #ccc;
+    min-width: 0; /* важливо: дозволяє flex-елементам стискатись при маленькому екрані */
+}
